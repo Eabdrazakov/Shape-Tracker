@@ -1,3 +1,7 @@
+import './css/styles.css';
+
+import Triangle from "./triangle.js";
+
 function handleTriangleForm() {
     event.preventDefault();
     document.querySelector('#response').innerText = null;
@@ -14,3 +18,4 @@ function handleTriangleForm() {
 window.addEventListener("load", function () {
     document.querySelector("#triangle-checker-form").addEventListener("submit", handleTriangleForm);
 });
+
